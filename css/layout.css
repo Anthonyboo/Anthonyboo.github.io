@@ -1559,3 +1559,11 @@ fieldset[disabled] .btn-theme {
 .height-500 {
   height: 500px !important;
 }
+.tovar {
+  width: 50%;
+  float: left;
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}

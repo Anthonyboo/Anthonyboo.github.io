@@ -1146,3 +1146,11 @@ fieldset[disabled] .btn-theme {
 .col-4 {
     width: 33.33333333% !important;
 }
+.tovar {
+  width: 50%;
+  float: left;
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}

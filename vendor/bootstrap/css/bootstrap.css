@@ -1806,6 +1806,14 @@ pre code {
   .col-sm-4 {
     width: 50%;
   }
+  .tovar {
+    width: 50%;
+    float: left;
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
   .col-sm-3 {
     width: 25%;
   }
