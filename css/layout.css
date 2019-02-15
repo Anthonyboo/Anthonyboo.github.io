@@ -1472,7 +1472,8 @@ fieldset[disabled] .btn-theme {
     margin-bottom: 40px !important;
   }
   .sm-margin-b-50 {
-    margin-bottom: 50px !important;
+    margin-bottom: 50px !important
+    width 50%;
   }
   .sm-margin-b-60 {
     margin-bottom: 60px !important;
