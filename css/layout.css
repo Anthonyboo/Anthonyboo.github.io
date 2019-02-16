@@ -113,7 +113,7 @@ h1 > a:focus, h2 > a:focus, h3 > a:focus, h4 > a:focus, h5 > a:focus, h6 > a:foc
 }
 
 h1 {
-  font-size: 40px;
+  font-size: 60px;
 }
 
 h2 {
@@ -423,7 +423,7 @@ fieldset[disabled] .btn-theme {
 }
 
 .promo-block .promo-block-text {
-  font-size: 25px;
+  font-size: 35px;
   color: #fff;
 }
 
@@ -1566,4 +1566,10 @@ fieldset[disabled] .btn-theme {
   min-height: 1px;
   padding-right: 15px;
   padding-left: 15px;
+}
+.txt {
+  font-size: 40px;
+}
+.padd{
+  padding:10px;
 }
