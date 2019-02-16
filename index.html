@@ -56,8 +56,8 @@
                         <!-- Logo -->
                         <div class="logo">
                             <a class="logo-wrap" href="#body">
-                                <img class="logo-img logo-img-main" src="img/logo.png" alt="Green Health">
-                                <img class="logo-img logo-img-active" src="img/logo-dark.png" alt="Green Health">
+                                <img class="logo-img logo-img-main" src="img/logo.png" alt="Гумопром">
+                                <img class="logo-img logo-img-active" src="img/logo-dark.png" alt="Гумопром">
                             </a>
                         </div>
                         <!-- End Logo -->
@@ -148,11 +148,17 @@
             <div class="container-full-width">
                 <div class="row row-space-2">
                     <div class="col-sm-6 sm-margin-b-4">
-                        <img class="img-responsive" src="img/970x647/05.jpg" alt="Image">
+                        <img class="img-responsive" id="img2" name="img2" onClick="click_on2()" src="img/970x647/05.jpg" alt="Image">
                     </div>
                     <div class="col-sm-6">
-                        <img class="img-responsive" src="img/970x647/04.jpg" alt="Image">
+                      <img class="img-responsive" id="img1" name="img1" onClick="click_on1()" src="img/970x647/04.jpg" alt="Image">
                     </div>
+                    <script>
+                    function click_on1(){
+document.images["img1"].src = 'img/970x647/07.jpg'; }
+function click_on2(){
+document.images["img2"].src = 'img/970x647/06.jpg'; }
+                    </script>
                 </div>
                 <!--// end row -->
             </div>
@@ -271,20 +277,21 @@
                             </div>
                             <div class="work-popup-overlay">
                                 <div class="work-popup-content">
-                                    <a href="javascript:void(0);" class="work-popup-close">Hide</a>
+                                    <a href="javascript:void(0);" class="work-popup-close">Закрыть</a>
                                     <div class="margin-b-30">
-                                        <h3 class="margin-b-5">Art Of Coding</h3>
-                                        <span>Clean &amp; Minimalistic Design</span>
+                                        <h3 class="margin-b-5">Преимущества гуматов для растений</h3>
+                                        <!-- <span>Clean &amp; Minimalistic Design</span> -->
                                     </div>
                                     <div class="row">
                                         <div class="col-sm-8 work-popup-content-divider sm-margin-b-20">
                                             <div class="margin-t-10 sm-margin-t-0">
-                                                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
+                                                <p>Препараты демонстрирует превосходные результаты в качестве высокоэффективнысухи и сильной жары (45-50 градусов).
+<br><br>Использование лигногумата не восполняет недостаток природного ресурса - воды, и не избавляет от излишка температуры, но оказывает антистрессовое влияние на растения, сглаживая при этом возможные потери продуктивности. На химические и биологические свойства Лигногумата с точки зрения термо- и фотолабильности климатический режим не влияет. При производстве действующие вещества подвергаются гораздо более серьезной температурной обработке.
+По общим правилам, листовые подкормки лигногуматами в составе баковых смесей с удобрениями, а также обработку средствами защиты растений, такими как пестициды, в условиях сильной жары и засухи рекомендуется применять в вечернее или утреннее время.</p>
                                                 <ul class="list-inline work-popup-tag">
-                                                    <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#">Design,</a></li>
-                                                    <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#">Coding,</a></li>
-                                                    <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#">Portfolio</a></li>
+                                                    <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#">Гуматы,</a></li>
+                                                    <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#">Использование,</a></li>
+                                                    <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#">Рост</a></li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -310,20 +317,20 @@
                             </div>
                             <div class="work-popup-overlay">
                                 <div class="work-popup-content">
-                                    <a href="javascript:void(0);" class="work-popup-close">Hide</a>
+                                    <a href="javascript:void(0);" class="work-popup-close">Закрыть</a>
                                     <div class="margin-b-30">
-                                        <h3 class="margin-b-5">Art Of Coding</h3>
-                                        <span>Clean &amp; Minimalistic Design</span>
+                                        <h3 class="margin-b-5">Гумат из торфа</h3>
+                                        <!-- <span>Clean &amp; Minimalistic Design</span> -->
                                     </div>
                                     <div class="row">
                                         <div class="col-sm-8 work-popup-content-divider sm-margin-b-20">
                                             <div class="margin-t-10 sm-margin-t-0">
-                                                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
+                                                <p>Когда фермер или дачник хочет выбрать торфо-гуминовое удобрение, все намного сложнее. Начнем с того, что существуют различные технологии производства. В зависимости от выбора технологии свойства конечного продукта могут отличаться. Одни технологии бережно сохраняют биологически активные вещества, другие — частично разрушают. В одних случаях раствор можно использовать для опрыскивания, в других — нет.</p>
+                                                <p>Самое неприятное, что некоторые препараты имеют очень подозрительный состав. Иногда технология обработки торфа (если он вообще обрабатывался) не раскрывается или упоминается очень туманно. При этом в составе фигурируют гуминовые вещества. Правда, они присутствуют даже в необработанном торфе, но непосредственно из торфа растения их просто не могут усвоить. Конечно, все это скрыто за привлекательно звучащими и не всегда правдивыми формулировками. А удобрять поля непосредственно торфом имеет смысл только в редких случаях для достижения специфических результатов.</p>
                                                 <ul class="list-inline work-popup-tag">
-                                                    <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#">Design,</a></li>
-                                                    <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#">Coding,</a></li>
-                                                    <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#">Portfolio</a></li>
+                                                  <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#">Гуматы,</a></li>
+                                                  <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#">Использование,</a></li>
+                                                  <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#">Рост</a></li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -652,7 +659,7 @@
         <!--========== END FOOTER ==========-->
 
         <!-- Back To Top -->
-        <a href="javascript:void(0);" class="js-back-to-top back-to-top">Top</a>
+        <a href="javascript:void(0);" class="js-back-to-top back-to-top">Up</a>
 
         <!-- JAVASCRIPTS(Load javascripts at bottom, this will reduce page load time) -->
         <!-- CORE PLUGINS -->
