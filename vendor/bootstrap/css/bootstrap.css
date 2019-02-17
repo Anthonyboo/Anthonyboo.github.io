@@ -6766,4 +6766,10 @@ button.close {
     display: none !important;
   }
 }
+.mark-a{
+  height: 100px;
+  width: 100px;
+  background-color: red;
+}
+
 /*# sourceMappingURL=bootstrap.css.map */

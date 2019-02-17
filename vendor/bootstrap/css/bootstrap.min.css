@@ -12,3 +12,8 @@
  }
  .btn-white-bg-dop {color: white;background: #267326;}
 /*# sourceMappingURL=bootstrap.min.css.map */
+.mark-a{
+  height: 100px;
+  width: 100px;
+  background-color: red;
+}

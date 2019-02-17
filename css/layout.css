@@ -1574,3 +1574,15 @@ fieldset[disabled] .btn-theme {
   padding:10px;
 }
 .btn-white-bg-dop {color: white;background: #267326;}
+h1{
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+.mark-a{
+  height: 100px;
+  width: 100px;
+  background-color: red;
+  position: absolute;
+}
+.wrap{
+  position: relative;
+}
