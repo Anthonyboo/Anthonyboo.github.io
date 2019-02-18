@@ -1839,6 +1839,9 @@ pre code {
   .col-sm-pull-9 {
     right: 75%;
   }
+  .wrap{
+    position: relative;
+  }
   .col-sm-pull-8 {
     right: 66.66666667%;
   }
