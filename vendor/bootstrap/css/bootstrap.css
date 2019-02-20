@@ -1841,6 +1841,7 @@ pre code {
   }
   .wrap{
     position: relative;
+        margin-bottom: 100px;
   }
   .col-sm-pull-8 {
     right: 66.66666667%;
