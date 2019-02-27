@@ -499,43 +499,78 @@
             </div>
         </div>
         <!-- End Work -->
-        <!-- Contact -->
-        <div id="contact">
 
-          <div class="col-sm-13 sm-margin-b-4 wrap">
-              <img class="img-responsive" id="img2" name="img2" src="img/970x647/06.jpg" alt="Image">
-              <form id="form3" action="mail.php" method="POST">
 
-                <h3><span>Отправьте заказ</span></h3>
+        <!--========== PAGE LAYOUT ==========-->
+        <!-- Products -->
+        <div id="contact" style="    background: url(img/970x647/06.jpg);">
+            <div class="container content-lg">
+                <div class="row text-center margin-b-40">
+                    <div class="col-sm-6 col-sm-offset-3">
+                        <h2 style="color: #fff;">Сделать заказ</h2>
+                    </div>
+                </div>
+                <!--// end row -->
 
-                <fieldset><legend>Contact form</legend>
-                  <p class="first">
-                    <input type="text" name="f_name" id="name" size="30" placeholder="Имя *" />
+                <div class="row">
+				<form id="form3" action="mail.php" method="POST">
+                    <!-- Latest Products -->
+                    <div class="col-md-4 sm-margin-b-50">
+                        <div class="margin-b-20">
+                    <p class="first">
+                    <input type="text" name="f_name" required id="name" size="30" placeholder="Имя *" />
                   </p>
                   <p class="second">
-                    <input type="text" name="s_name" id="secname" size="30" placeholder="Фамилия *" />
+                    <input type="text" name="s_name" required id="secname" size="30" placeholder="Фамилия *" />
                   </p>
                   <p>
                     <input type="text" name="p_name" id="tname" size="30" placeholder="Отчество" />
                   </p>
                   <p>
-                    <input type="text" name="email" id="email" size="30" placeholder="e-mail" />
+                    <input type="text" name="email" id="email" size="30" placeholder="E-mail" />
                   </p>
                   <p>
-                    <input type="text" name="phone" id="phone" size="30" placeholder="Телефон *" />
+                    <input type="text" name="phone" required id="phone" size="30" placeholder="Телефон *" />
                   </p>
-                </fieldset>
-                <fieldset class="last">
-                  <p>
+                        </div>
+
+                        <!-- End Work -->
+                    </div>
+                    <!-- End Latest Products -->
+
+                    <!-- Latest Products col-sm-4-->
+                    <div class="col-md-4 sm-margin-b-50">
+                        <div class="margin-b-20">
+                    <p>
                     <textarea name="message" id="message" cols="30" rows="10" placeholder="Ваше сообщение"></textarea>
                   </p>
+				  <p class="submit text-uppercase padd"><button type="submit">Отправить</button></p>
+                        </div>
 
-                </fieldset>
+                        </div>
+				</form>
+                    <!-- Latest Products col-sm-4-->
+                    <div class="col-md-4 sm-margin-b-50 contacts_p">
+                        <div class="margin-b-20">
+                             <p><strong>Контакты</strong></p>
+							 <p>Бурков Антон Алексеевич (Россия):<br/><a href="tel:+79038985092">+7 (903) 898-50-92</a></p>
+							 <p>Бельдин Владислав Евгениевич (экспорт):<br/><a href="tel:+79103718617">+7 (910) 371-86-17</a></p><br/>
+							 <p><strong>ИП Ипатова Е.В.</strong></p>
+							 <p>г. Кострома, Россия<br/><a href="mailto:info@gh-humate.com">info@gh-humate.com</a></p>
+                        </div>
 
-                <p class="submit text-uppercase padd"><button type="submit">sdsad</button></p>
+                        </div>
 
-              </form>
-              <!-- end form -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Contact -->
+        <div>
+
+          <div class="col-sm-13 sm-margin-b-4 wrap" style="    background: url(img/970x647/06.jpg);">
 
             <!-- Google Map -->
             <div class="gmap">
